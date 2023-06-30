@@ -1,5 +1,5 @@
 .div{
-    width: 69vh;
+    width: 60vh;
     height: 8vh;
     background-color:rgb(128, 128, 128);
     display: flex;
@@ -11,7 +11,8 @@
     width: 60%;
     height: 50%;
     border-radius: 0.3rem;
-    border: none;
+    border-color: black;
+    /* border: none; */
     padding: 0 0 0 1rem;
 }
 
