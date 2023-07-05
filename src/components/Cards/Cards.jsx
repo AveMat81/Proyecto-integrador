@@ -1,12 +1,12 @@
-import React from "react";
 import Card from './Card/Card';
 import styles from './Cards.module.css'
 
- const Cards = (props) => {
+export default function Cards(props){
    return (
     <div className={styles.div}>
       {props.characters.map((pj) =>(
           <Card 
+            key={pj.id}
             id={pj.id}
             name={pj.name}
             species={pj.species}
@@ -20,5 +20,3 @@ import styles from './Cards.module.css'
     </div>
   );   
 };
-
-export default Cards;

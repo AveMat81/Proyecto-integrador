@@ -1,12 +1,18 @@
 .App{
-   width: 100vw;
+   /* width: 100vw;
    height: 100vh;
    text-align: center;
-   /* background-image: url('../src/components/image/images.jpg'); */
-   /* background-repeat: no-repeat; */
-   /* background-size: cover; */
+   background-image: url('../src/components/image/images.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px; */
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 20px;
+   text-align: center;
+   /* backgound-color: #860f0f; */
 }
