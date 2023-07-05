@@ -28,7 +28,7 @@ useEffect(() => {
       // se ejecuta cuando se desmonta
       // console.log("desmontaje")
      };
-}, []);
+}, [id]);
 
 
     return(
