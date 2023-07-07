@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Nav from './components/Navbar/Nav';
 import About from './components/About/About';
 import Detail from './components/Detail/Detail';
+import Form from './components/Form/Form';
 import axios from "axios"
 import './App.css';
 
@@ -39,9 +40,11 @@ const [characters, setCharacters] = useState([]);
       <div className='App'>
          <Nav onSearch={onSearch}/>
          <Routes>
+          <Route path="/" element={<Form />} />
           <Route path="/home" element={< Home characters={characters} onClose={onClose}/>} />
           <Route path='/about' element={<About />} />
           <Route path='/detail/:id' element={<Detail />} />
+          {/* <Route path="/create" element={<Form />} /> */}
          </Routes>
          
          </div>
